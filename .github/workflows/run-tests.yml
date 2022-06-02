@@ -31,4 +31,4 @@ jobs:
    
     - name: Test with pytest
       run: |
-        pytest -m unittest -v tests/test_python-docker.py
+        python -m unittest -v tests/test_python-docker.py
